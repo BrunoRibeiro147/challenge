@@ -1,0 +1,20 @@
+[
+    {
+		"name": "Voucher",
+		"code": "VOUCHER",
+		"price": 5.00,
+		"discount_code": 1
+	},
+	{
+		"name": "T-Shirt",
+		"code": "TSHIRT",
+		"price": 20.00,
+		"discount_code": 2
+	},
+	{
+		"name": "Coffee Mug",
+		"code": "MUG",
+		"price": 7.50,
+		"discount_code": null
+	}
+]
