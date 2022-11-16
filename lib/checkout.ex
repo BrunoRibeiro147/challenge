@@ -32,6 +32,8 @@ defmodule Checkout do
 
     {:ok, checkout} = Challenge.execute(scanned_items, pricing_rules)
 
-    "#{checkout.total}€"
+    formatted_total = :erlang.float_to_binary(checkout.total, decimals: 2)
+
+    "#{formatted_total}€"
   end
 end
