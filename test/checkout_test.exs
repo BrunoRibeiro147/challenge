@@ -23,7 +23,7 @@ defmodule CheckoutTest do
       co.scan("voucher")
       co.scan("tshirt")
 
-      assert "30.0€" = co.total()
+      assert "30.00€" = co.total()
     end
   end
 end
